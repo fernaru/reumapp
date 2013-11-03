@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title>ReumApp</title>
+<link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css"/>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+ <link rel="stylesheet" href="css/flexslider.css"/>
+ <link rel="stylesheet" href="css/reumapp.css" />
+
+
+ <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+ <script type="text/javascript" src="js/menuDesplegable.js" ></script>
+ <script type="text/javascript" src="js/jquery.touchSwipe.min.js" ></script>
+ <script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
+ <script src="js/jquery.flexslider.js"></script>
+ 
+ <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</head>
+ <body >
+ <!-- ********************************inicio plagina ******************************* -->
+ <div data-role="page" id="fibro" >
+
+    <div data-role="header" data-position="fixed">
+
+        <h1> ReumApp </h1>
+
+   </div> <!-- cabezera -->
+
+  <div data-role="content">
+      
+      <!-- Comienza el Colapsable Multiple -->
+    <div >
+            
+    <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Definicion</span>
+    </h3>
+
+    <p>La osteoporosis fue definida en 1991 como una enfermedad esquelética sistémica, caracterizada por baja masa ósea y deterioro en lamicro arquitectura del tejido óseo, que origina fragilidad ósea aumentada con el consecuente aumento en el riesgo de fractura.(7)</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Epidemiologia</span>
+    </h3>
+
+    <p>La osteoporosis es la causa más común de fracturas, afectando al 20% de las mujeres postmenopáusicas en EE.UU, siendo mucho más frecuente que en el varón. (7)
+Afecta 30%-40% las mujeres posmenopáusicas y casi al 50% de las personas mayores de 76 años también es importante mencionar que esta es 8 veces más frecuente en mujeres que en hombres.(8)
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Fisiopatologia</span>
+    </h3>
+
+    <p>El mayor índice de masa ósea se alcanza a los 25 y está determinado por factor genético, factores nutricionales, actividad física y factores endocrinos. 
+Por otra parte vemos que en las mujeres es más frecuente encontrar osteoporosis y esto ocurre entre otras cosas porque después de la menopausia al secar el influjo de estrógenos se activan las interleucinas 6, 11 y el factor de necrosis tumoral α. Estas a su vez estimulan a los osteoclastos y la resorción ósea produciendo hacia un desbalance entre la producción y la resorción. (7). 
+En cuanto a la acción de los estrógenos, estos también tienen efecto sobre los osteoblastos, incrementando la producción de osteoprotegerina (OPG) y del factor transformador de crecimiento beta (TGF-Beta1) que induce la apoptosis del osteoclasto. (9)
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Diagnostico</span>
+    </h3>
+
+    <p>Deben evaluarse los factores de riesgo y la densitometría ósea. El diagnóstico es principalmente densitométrico, pero puede establecerse al ocurrir fracturas en sitio típico con un trauma mínimo.
+Dentro de los factores de riesgo para fractura y osteoporosis tenemos (7):
+1.	Tabaquismo
+2.	Uso de corticoides por más de tres meses
+3.	Baja ingesta de calcio
+4.	Consumo de alcohol
+5.	Baja de peso
+6.	Déficit estrogénico antes de los 45 años
+7.	Alteraciones visuales
+8.	Demencia
+9.	Caídas recientes
+10.	Baja actividad física
+11.	Historia de fractura
+12.	Historia de fractura osteoporótica en un familiar de primer grado.
+
+En cuanto a la densitometría mineral ósea, La Organización Mundial de la Salud (OMS) estableció una definición operativa para mujeres de raza blanca. Así, se estableció como normal valores de DMO superiores a (7)(10) :
+1.	Normal: DMO entre +1 y -1 DE del promedio de población adulta joven.
+2.	Osteopenia: DMO entre -1 y –2,5 DE del promedio de población adulta joven.
+3.	Osteoporosis: DMO bajo –2,5 DE del promedio de población adulta joven.
+4.	Osteoporosis grave: DMO bajo –2,5 DE del promedio de población adulta joven y una o más fracturas de tipo osteoporótico.
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Clinica</span>
+    </h3>
+
+    <p>La osteoporosis es asintomática y La clínica de las fracturas periféricas es igual que la de personas que no padecen osteoporosis, lo que las distingue es que se producen ante un trauma menor. (10)
+Existen áreas de fractura características la osteoporosis, estas son las de la extremidad proximal del fémur, las vertebrales y las de antebrazo distal (fractura de Colles).(10)
+La fractura vertebral es la manifestación clínica más común de la osteoporosis, estas pueden ser asintomáticas diagnosticándose solo de forma accidental, o pueden producir dolor y otras complicaciones. Cuando las fracturas vertebrales son recientes suelen provocan raquialgia intensa en el 30-80% de los casos, la que cede en un período de 2 semanas a 3 meses; Algunos de estos pacientes desarrollan dolor crónico que empeora con la bipedestación prolongada y mejora con el decúbito. (10)
+Aparte de esto, las fracturas vertebrales ocasionan una reducción de la talla y una alteración de la estática de la columna vertebral, con cifosis, acortamiento del tronco y rectificación de la lordosis lumbar, dependiendo de la localización de la vértebra fracturada.(10)
+La fractura osteoporótica más grave es la de cadera que en la mayor parte de las ocasiones se produce tras una caída y La mortalidad después de esta oscila entre un 12 y un 40% al primer año. Por otra parte esta tiene varias repercusiones, como son la necesidad de intervención quirúrgica en el 80% de los casos y una disminución en la calidad de vida. Así, la mayoría tienen discapacidad residual y un porcentaje de casos pierde la capacidad de llevar una vida independiente.(10)
+También es muy común La fractura de Colles, y se estima que hasta un 15% de las mujeres pueden presentarla a lo largo de su vida.(10)
+Aunque esta es la menos deteriorante de todas, puede originar dolor persistente, discapacidad funcional, neuropatía y artritis postraumática, además de constituir por sí misma un factor de riesgo significativo para la futura presentación de fracturas vertebrales o de cadera. (10)
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Tratamiento</span>
+    </h3>
+
+    <p>Antes de entrar a hablar sobre tratamiento farmacológico es importante mencionar una serie de recomendaciones generales que se deben hacer a todo paciente con osteoporosis. Dentro de estas se encuentran (7):
+1.	Ingesta de calcio 
+2.	Vitamina D 400-800 UI/día en riesgo de deficiencia
+3.	Ejercicio regular
+4.	Prevención de caídas
+5.	Evitar el uso de tabaco
+6.	Evitar el uso de alcohol.
+La prevención constituye la única orientación efectiva para el control de la osteoporosis; ya que, en el momento actual, no se encuentran disponibles métodos seguros y efectivos para restaurar hueso de buena calidad en el esqueleto osteoporótico. Esta tiene como objetivos conseguir un buen pico de masa ósea e intentar reducir la pérdida de la misma. (11)
+En el caso de los pacientes que ya tienen instaurada una osteoporosis, el tratamiento consiste en evitar que la pérdida ósea sea acelerada y retrasarla lo más posible al tiempo que se  impidela aparición de nuevas fracturas si no se han producido todavía. (11)
+Como mencionamos anteriormente, es de vital importancia la ingesta diaria de calcio. En los niños de 1 a 10 años deben administrarse 800mg, en los adolescentes 1.200mg y en la edad adulta de 800 a 1.000 mg que durante el embarazo y la lactancia deberá incrementarse a 1.200-1.500 mg/día.(11)
+El ejercicio físico practicado de forma regular a todas las edades, y especialmente durante la adolescencia, es capaz de aumentar la masa ósea. De manera que se ha observado que su práctica regular incrementa el pico de masa ósea en los jóvenes, mediante el aumento de la masa ósea trabecular y cortical.(11)
+Como mencionamos anteriormente, los estrógenos son muy importantes en cuanto a la fisiopatología de la enfermedad, por lo que la terapia hormonal en mujeres con indicación constituye parte del tratamiento.(11)
+También se puede usar calcitonina, la cual produce un efecto inhibidor sobre los osteoclastos disminuyendo hacia la reabsorción ósea. Esta se usa más que todo en pacientes con contraindicación para terapia hormonal o con baja respuesta a este.(11)
+Por su parte los difosfonatos poseen una elevada afinidad por los cristales de hidroxiapatita, inhibiendo la actividad de los osteoclastos y reduciendo la reabsorción ósea. Existen algunas evidencias de que su uso se asocia a un aumento de la masa ósea junto a una disminución del riesgo de padecer fracturas.(11)
+Dentro del grupo de los difodfonatos se encuentran el etidronato y clodronato, cuya administración se realiza en forma discontinua, según una pauta cíclica (durante 14 días cada tres meses). Durante los 76 días que transcurren entre ciclos de administración de difosfonatos, se administra calcio (500 mg/día) y vitamina D (800 UI/día).(11)
+También es importante recordar la importancia que tiene la vitamina D en el proceso de mineralización ósea y mencionar que ante la sospecha de déficit de vitamina D, ya sea por una escasa exposición solar y/o una baja ingesta de la misma, se debe complementar con 400-800 UI/día.(11)
+</p>
+    
+    </div>
+
+  </div><!-- Termina el Contenido-->
+
+   </div> <!-- contenido -->
+
+   <div data-role="footer" data-position="fixed">
+
+       <div data-role="navbar">
+        <ul>
+          <li><a href="#login">cerrar seccion</a></li>
+          <li><a href="#principal">principal</a></li>
+          <li><a href="pantalla3">pantalla 3</a></li>
+        </ul>
+
+       </div>
+
+   </div> <!-- piecera -->
+
+</div> <!-- fin de la pagina 4 -->
+
+ </body>
+ </html>

@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title>ReumApp</title>
+ <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css"/>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+ <link rel="stylesheet" href="css/flexslider.css"/>
+ <link rel="stylesheet" href="css/reumapp.css" />
+
+
+ <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+ <script type="text/javascript" src="js/menuDesplegable.js" ></script>
+ <script type="text/javascript" src="js/jquery.touchSwipe.min.js" ></script>
+ <script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
+ <script src="js/jquery.flexslider.js"></script>
+ 
+ <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</head>
+ <body >
+ <!-- ********************************inicio plagina ******************************* -->
+ <div data-role="page" id="fibro" >
+
+    <div data-role="header" data-position="fixed">
+
+        <h1> ReumApp </h1>
+
+   </div> <!-- cabezera -->
+
+  <div data-role="content">
+      
+      <!-- Comienza el Colapsable Multiple -->
+    <div >
+            
+    <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Definicion</span>
+    </h3>
+
+    <p>El síndrome de Sjögren es una  enfermedad autoinmune sistémica caracterizada por la presencia de xeroftalmía y  xerostomía debido a un infiltrado linfoide de las glándulas exocrinas. Este  puede ser secundario a otra patología reumatoide o ser primario.(13)</p>
+</div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Epidemiologia</span>
+    </h3>
+
+    <p>El síndrome de sjögren se  presenta en el 50% de los casos como una entidad primaria, es decir, sin estar  asociado a otra patología reumática. Tiene una prevalencia estimadade 0.5-1% en  la población general siendo la patología reumática más frecuente después de la  artritis reumatoide. (13)<br>
+      Al igual que las muchas otras  patologías reumáticas, esta se presenta con mucha más frecuencia en mujeres,  con una relación 9:1. Se presenta con mayor frecuencia en la tercera década de  la vida o en mujeres después de la menopausia. (13)<br>
+      Por otra parte cuando esta  patología se presenta como una enfermedad secundaria a otros procesos  reumáticos, se asocia principalmente a la artritis reumatoide (el 25% de estos  pacientes desarrollan síndrome de sjögren)con una frecuencia de entre el 20 y  el 50% de los pacientes. Puede verse asociado a otras patologías como son el  lupus eritematoso sistémico, la esclerosis sistémica progresiva, la cirrosis  biliar primaria y la dermatomiositis. (6)(13)</p>
+</div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Fisiopatologia</span>
+    </h3>
+
+    <p>El síndrome de sjögren es una  patología que al igual que otras enfermedades autoinmunes no tiene una etología  clara y en la que intervienen tanto factores genéticos como ambientales.<br>
+      Se cree que en estos pacientes  hay defectos intrínsecos en las células del epitelio glandular y de las células  dendríticas, lo cual conlleva a un proceso de apoptosis anormal. Estointeractúa  con diversos factores ambientales (procesos infeciosos) estimulando el proceso  de inmunidad innata por medio del HLA. Al darse esto se produce un fenómeno  conocido como  &ldquo;mimetismo molecular&rdquo;, en  el cual los productos de apoptosis mencionados anteriormente son confundidos  con dichos microorganismos. (13)<br>
+      Todos estos procesos producen  la liberación de citoquinas que estimulan la migración de linfocitos y células  dendríticas hacia el tejido glandular. (13)</p>
+</div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Diagnostico</span>
+    </h3>
+
+    <p>Actualmente los criterios que  se utilizan son los del &ldquo;European American ConsensusGroupModification of  theCommunityCriteriafor SS&rdquo;, los cuales se resumen a continuación (13):</p>
+    <ol>
+      <li>Síntomas oculares  (por lo menos uno presente):</li>
+      <ol>
+        <li>Sensación de ojo  seco persistente &gt; 3 meses</li>
+        <li>Sensación de cuerpo  extraño recurrente</li>
+        <li>Necesidad de uso  lágrimas artificiales &gt; 3 veces al día</li>
+      </ol>
+    </ol>
+    <ol>
+      <li>Síntomas orales (por  lo menos uno presente)</li>
+      <ol>
+        <li> Sensación de boca seca persistente &gt; 3  meses</li>
+        <li>Sensación recurrente  de inflamación glandular</li>
+        <li>Necesidad de pasar  la comida sólida con líquidos</li>
+      </ol>
+    </ol>
+    <p>&nbsp;</p>
+    <ol>
+      <li> Evidencia objetiva de ojo seco (por lo menos  uno presente)</li>
+      <ol>
+        <li>Test Schirmer</li>
+        <li>Rosa de bengala</li>
+        <li>Biopsia lagrimal con focus score = 1</li>
+      </ol>
+    </ol>
+    <h2>&nbsp;</h2>
+    <ol>
+      <li>Evidencia objetiva  de compromiso de la glándula salivar (por lo menos uno presente)</li>
+      <ol>
+        <li>Gamagrafía de  glándulas salivares</li>
+        <li>Sialografía de la  parótida</li>
+        <li>Sialometría no  estimulada (&lt;1,2 mL/15 min)</li>
+      </ol>
+    </ol>
+    <ol>
+      <li>Anormalidad de  laboratorio (por lo menos unopresente)</li>
+    </ol>
+    <p>5.1  Anticuerpos Anti SS-A o Anti SS-B positivos<br>
+      5.2  ANAS positivos<br>
+      5.3  Factor reumatoide IgM positivo</p>
+    <p>Para el diagnóstico de se  requieren cuatro de seis criterios, incluyendo la biopsia de glándula salival menor  o los anticuerpos Anti SS-A/SS-B. (13)<br>
+      Por su parte, no se cuentan  actualmente con criterios diagnósticos unificados para  las formas secundarias, pero se debe tener en  cuenta que el paciente además de tener una enfermedad del tejido conectivo  previamente establecida, debe tener u ojo o boca corroborada por algún examen  de laboratorio.(13)</p>
+        </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Clinica</span>
+    </h3>
+
+    <p>Los pacientes con síndrome de  sjögren pueden presentar tanto manifestaciones glandulares como extraglandulares.Dentro  de las manifestaciones glándulas predominan la xeroftalmía, xerostomía y la  tumefacción de glándulas salivales mayores, pero también pueden verse afectadas  otras glándulas exocrinas. (14)<br>
+      En la xeroftalmia los pacientes  presentan disminución del flujo lagrimal, alteración de la composición de la lágrima  e inestabilidad de la capa lagrimal, lo que conlleva a lesión del epitelio  ocular. Debido a esto, los pacientes con síndrome de sjögren presentan un  riesgo aumentado de presentar infecciones bacterianas y ulceras corneales. (14)<br>
+      En cuanto a la xerostomía, es  importante mencionar que debido a la disminución de flujo salivalla mucosa oral  tiende a fisurarse y a ulcerarse, aumentando así el riego de presentar infecciones  orales oportunistas, cariesy enfermedad periodontal (también porque al estar  disminuida la producción de saliva disminuye su efecto antimicrobiano).(14)<br>
+      La tumefacción de glándulas  salivales afecta al 30–50% de los pacientes. Existen 2 formas de presentación:  aguda y crónica. La forma aguda se resuelve en 2–3 semanas y siempre hay que  descartar sobreinfección, mientras que en la crónica se debe descartar linfoma  si la tumefacción parotídea es de consistencia aumentada y se asocia a  adenopatías. (14)<br>
+      Como mencionamos anteriormente,  también existen un grupo de manifestaciones extraganglionares, en las cuales  ahondaremos a continuación.  <br>
+      Aproximadamente el 50% de estos  pacientes presentan artralgias, con o sin evidencia de artritis. También pueden  presentarse mialgias, ansiedad y depresión. (14)<br>
+      Puede haber afectación  neurológica afectando principalmente al sistema nervioso periférico, de manera  que los pacientes pueden presentar ataxia sensitiva, polineuropatía mixta  sensoriomotriz principalmente en los miembros inferiores, neuropatía  autonómica, mononeuritis múltiple y afectación de pares craneales (afectando  principalmente al trigémino).(14)<br>
+      También es frecuente que estos  pacientes presenten vasculitis cutánea, apareciendo está en un 10% de los casos  En ellos La púrpura palpable es el signo más común y las manifestaciones suelen  presentarse más que todo en los miembros inferiores.(14)<br>
+      La disfagia afecta al 35% de estos  pacientes, debido a la disminución de la salivación que ya mencionamos  anteriormente. También esfrecuenteencontrar gastritis atrófica, aclorhidria y  anemia perniciosa, cirrosis biliar primaria, enfermedad celiaca y pancreatitis  autoinmune. (14)</p>
+</div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Tratamiento</span>
+    </h3>
+
+    <p>sin definir</p>
+    
+    </div>
+
+  </div><!-- Termina el Contenido-->
+
+   </div> <!-- contenido -->
+
+   <div data-role="footer" data-position="fixed">
+
+       <div data-role="navbar">
+        <ul>
+          <li><a href="#login">cerrar seccion</a></li>
+          <li><a href="#principal">principal</a></li>
+          <li><a href="pantalla3">pantalla 3</a></li>
+        </ul>
+
+       </div>
+
+   </div> <!-- piecera -->
+
+</div> <!-- fin de la pagina 4 -->
+
+ </body>
+ </html>

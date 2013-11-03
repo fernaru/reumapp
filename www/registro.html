@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title>ReumApp</title>
+ <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css"/>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+ <link rel="stylesheet" href="css/flexslider.css"/>
+ <link rel="stylesheet" href="css/reumapp.css" />
+
+
+ <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+ <script type="text/javascript" src="js/menuDesplegable.js" ></script>
+ <script type="text/javascript" src="js/jquery.touchSwipe.min.js" ></script>
+ <script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
+ <script src="js/jquery.flexslider.js"></script>
+ 
+ <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+  </head>
+
+        <body>
+        
+        <form name="nuevo_empleado" action="" onsubmit="enviarDatosEmpleado(); return false">
+        
+       			 <h2>Nuevo usuario</h2>
+        
+        <p>Nombre 
+        
+        		<label>
+        
+        			<input name="nombres" type="text" />
+        
+        		</label>
+        
+        </p>
+        
+        
+        <p>apellido 
+        
+        			<label>
+        
+        				<input name="apellidos" type="text" />
+        
+       			    </label>
+        
+        </p>
+        
+        
+        <p>Email 
+        
+        			<label>
+        
+        				<input name="emails" type="text" />
+        
+        			</label>
+        
+        </p>
+        
+        
+        <p>contraseña <strong>S/.</strong>
+        
+        
+        		<label>
+        
+        				<input name="contraseñas" type="password" />
+        
+       			</label>
+        
+        </p>
+        
+        <p>ciudad 
+        
+        <label>
+        
+        <select name="departamento">
+        
+        <option value="Informatica">quilla</option>
+        <option value="Contabilidad">bogota</option>
+        <option value="Administracion">medellin</option>
+        <option value="Logistica">cali</option>
+        <option value="Informatica">cartagena</option>
+        <option value="Contabilidad">leticia</option>
+        <option value="Administracion">monteria</option>
+        <option value="Logistica">sincelejo</option>
+        
+        </select>
+        
+        </label>
+        
+        </p>
+        
+        <p>sexo 
+        
+        <label>
+        
+        <select name="sexo">
+        
+        <option value="Informatica">seleccione</option>
+        <option value="Contabilidad">masculino</option>
+        <option value="Administracion">femenino</option>
+        
+        </select>
+        
+        </label>
+        
+        </p>
+        
+        <p>
+        
+        <label>
+        
+        
+        <input type="submit" name="Submit" value="Grabar" />
+        
+        </label>
+        
+        </p>
+        
+        </form>
+
+
+<div id="resultado"><?php include('consulta.php');?></div>
+
+</body>
+
+</html>

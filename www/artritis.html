@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title>ReumApp</title>
+ <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css"/>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+ <link rel="stylesheet" href="css/flexslider.css"/>
+ <link rel="stylesheet" href="css/reumapp.css" />
+
+
+ <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+ <script type="text/javascript" src="js/menuDesplegable.js" ></script>
+ <script type="text/javascript" src="js/jquery.touchSwipe.min.js" ></script>
+ <script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
+ <script src="js/jquery.flexslider.js"></script>
+ 
+ <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</head>
+ <body >
+ <!-- ********************************inicio plagina ******************************* -->
+ <div data-role="page" id="fibro" >
+
+    <div data-role="header" data-position="fixed">
+
+        <h1> ReumApp </h1>
+
+   </div> <!-- cabezera -->
+
+  <div data-role="content">
+      
+      <!-- Comienza el Colapsable Multiple -->
+    <div >
+         
+    <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Definicion</span>
+    </h3>
+
+    <p>La artritis reumatoide se define como una enfermedad sistémica autoinmune que provoca inflamación crónica principalmente de las articulaciones, con su consecuente destrucción progresiva, que conlleva a distintos grados de deformidad e incapacidad funcional (5). Estapatología puede presentar compromiso extra articular con afección de diversos órganos  como ojos, pulmones, pleura, corazón, pericardio, piel o vasos sanguíneos y se ha asociado a un aumento de la prevalencia en cuanto a enfermedad coronaria.</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Epidemiologia</span>
+    </h3>
+
+    <p>La artritis reumatoide tiene una prevalencia estimada entre 0.5% y 1% de la población general y se presenta  más frecuentemente en mujeres (relación 3:1). La edad de aparición oscila entre los 40 y 50 años de edad, aunque puede aparecer en cualquier grupo etario. (5)</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Fisiopatologia</span>
+    </h3>
+
+    <p>Se desconoce cuál es la causa de la artritis reumatoide, pero lo cierto es que en que los pacientes empiezan a presentar un infiltrado inflamatorio de células mononucleares localizado sobre todo en áreas perivasculares. Los linfocitos T CD4 presentes están activados y producen citoquinas T helper 1 (TH1). Estas citoquinas, especialmente la interleucina 2, la interleucina 17 y el interferón ɣ, estimulan contactos celulares las células TH1 y los linfocitos B lo que a su vez produce el factor reumatoide. Dichas interleucinas también son responsables de la activación de macrófagos. (6)
+Los macrófagos activados producen citoquinas pro inflamatorias (TNF- α,IL-1,IL-6,IL-15 y GM-CSF, entre otras).(6)
+Actualmente se cree que la enfermedad se perpetua en parte debido a que las citoquinas antiinflamatorias originadas a partir de los macrófagos, sobre todo el receptor de TNF- α, no es suficiente para contrarrestar el efecto de las sustancias pro inflamatorias.(6)
+Por otra parte el TNF- α e IL-1 producen neovascularizacion, estimulan el reclutamiento celular así como la producción de metaloproteasas y favorecen la aparición de osteoporosis yuxtaarticular.(6)
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Diagnostico</span>
+    </h3>
+
+    <p>Durante las últimas décadas se han venido utilizando los criterios diagnósticos establecidos por la American College of Rheumatology, los cuales tienen como limitación la falta de sensibilidad en las formas de AR tempranas (menores de 6 meses - 1 año de evolución), lo que ha llevado a establecer  nuevos criterios como los desarrollado por ACR y  TheEuropean League AgainstRheumatism  (EULAR) en el 2010, que incorporan, entre otras variables, nuevos parámetros humorales,  VES, PCR, y Anti  - CCP (Anticuerpo contra el Péptido Cíclico de la Citrulina).(5)
+Aun así ante una artritis temprana el diagnostico no es fácil y por ende ante una sinovitis persistente de origen idiopático, es necesario establecer un tratamiento precoz en vez de esperar que se cumplan los criterios para artritis reumatoide.
+Actualmente los criterios diagnósticos que se utilizan son los de la americacollege of rheumatology establecidos en 1987 (los criterios establecidos en el 2010 son criterios de clasificación), los cuales enumeraremos en breve(6):
+1.	Rigidez matutina de una hora de evolución
+2.	Artritis en por lo menos tres articulaciones
+3.	Artritis en las articulaciones de las manos que afecte al menos una de las siguientes áreas: carpo, metacarpofalangicas e interfalangicas proximales.
+4.	Artritis simétrica
+5.	Presencia de nódulos reumatoides
+6.	Presencia de factor reumatoide
+7.	hallazgos radiológicos típicos de artritis reumatoide en la radiografíapostero anterior de manos.
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Clinica</span>
+    </h3>
+
+    <p>Al comienzo de la enfermedad predominan las manifestaciones articulares acompañadas de síntomas generales como astenia, febrícula y anorexia; aunque el primer síntoma puede ser la rigidez matutina. Esta se desarrolla en cuestión de semanas o meses y pasa de ser asimétrica a simétrica en la gran mayoría de los casos. (6)
+Las articulaciones que se afectan primero son las metacarpofalángicas, interfalangicas proximales, los carpos y las metatarsofalángicas. (6)
+Luego de eso se describen tres formas clásicas de progresión de la enfermedad (6):
+1.	Curso intermitente (15%-20%): el paciente presenta cuadros de remisión parcial o total, que se caracterizan por ser más prolongados que los periodos de actividad. En cada periodo se actividad aumenta la intensidad y el número de articulaciones afectadas.
+2.	Curso remitente (10%): los pacientes presentan periodos prolongados de remisión y el comienzo de la enfermedad suele ser agudo.
+3.	Enfermedad progresiva (65%-0%): la enfermedad es progresiva e incapacitante, con afección progresiva de las articulaciones.
+Además del dolor los pacientes refieren rigidez matutina, inflamación articular, debilidad muscular y atrofia y deformidad (esta solo aparece en fases avanzadas). También puede producir túnel carpiano. (6)
+Es importante mencionar que además de las manifestaciones que acabamos de mencionar, también pueden presentarse otras en distintos órganos y no necesariamente en las articulaciones. A partir de aquí nos centraremos en dichas manifestaciones Extra articulares que son más frecuentes en pacientes con enfermedad seropositiva, erosiva y homocigotos para el subtipo Dw4 de HLA DR4. (6)
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Tratamiento</span>
+    </h3>
+
+    <p>El tratamiento para la artritis reumatoide no debe estar basado solo en el tratamiento farmacológico, sino también en la enseñanza hacia el paciente de una dieta balanceada. Dentro del tratamiento farmacológico tenemos que este está encaminado tanto al manejo de los síntomas como a la remisión de la artritis reumatoide.
+Para efectos prácticos empezaremos describiendo los medicamentos que se utilizan para disminuir los síntomas, dentro de este grupo encontramos los AINES que disminuyen tanto el dolor como el edema y los corticoides que se utilizan más que todo en pacientes con gran inflamación y compromiso funcional. Es importante mencionar que los corticoides se utilizan más que todo al inicio del tratamiento a la menor dosis posible, en forma transitoria y nunca como monoterapia.
+Dentro de los medicamentos utilizados para la remisión de la artritis reumatoide encontramos los fármacos modificadores de la enfermedad (FAME) que utilizados correctamente permiten en más de un 80% de los pacientes controlar la enfermedad. Estos tienen una acción lenta y prolongada, alcanzando su máxima eficacia luego de 3 a 6 meses de administración y tenemos que de estos el más utilizado es el metotrexate.
+El metotrexate(Mtx) es efectivo en recuperación funcional y en la disminución de la progresión de las erosiones óseas. Su efecto empieza a verse luego de 1-2 meses de tratamiento y se debe usar ácido fólico luego de 24 o 48 hs de su administración. (5)
+Dentro de este grupo también encontramos la leflunomida que actúa como un agente inmunomodulador,  la sulfasalazina (siempre combinada con otros FAMEs) y la hidroxicloroquinaque se usa combinada con metotrexate, ya que aumente el efecto de esta última y disminuye su hepatotoxicidad.(5)
+Si bien es cierto que los medicamentos más utilizados son los FAMEs, también se utilizan otro grupo de medicamentos dentro de los que destacan la terapia con biológicos que a su vez se subdivide en bloqueantes del factor de necrosis tumoral (anti-TNF) y los anticuerpos monoclonales-anti-CD 20.(5)
+Dentro del grupo de los anti-TNF tenemos algunos medicamentos como el Adalimumab, Infliximab y el Etanercept. El adalimumab posee Ac. Monoclonal  que se une al TNF impidiendo su unión a los receptores p55 y p75; Puede usarse en monoterapia o combinado con metotrexate. El infliximab es contiene Ac. Monoclonal quimérico y tiene 1 porción murina y 1 humana y se une al TNF transmembranoso y al soluble bloqueando su acción;a diferencia del anterior este no se usa en monoterapia y siempre debe ir acompañado del Mtx.el etanerceb es un receptor soluble dimétrico del TNF que se une al TNFα y lo inactiva.(5)
+Como representante del grupo de los anticuerpos monoclonales anti CD 20 tenemos el rituximab que en combinación con el Mtx se utiliza en casos de intolerancia o hipo respuesta a los anti-TNF.(5)
+</p>
+    
+    </div>
+
+  </div><!-- Termina el Contenido-->
+
+   </div> <!-- contenido -->
+
+   <div data-role="footer" data-position="fixed">
+
+       <div data-role="navbar">
+        <ul>
+          <li><a href="index.html">cerrar seccion</a></li>
+          <li><a href="principal.html">principal</a></li>
+          <li><a href="diagnostico">pantalla 3</a></li>
+        </ul>
+
+       </div>
+
+   </div> <!-- piecera -->
+
+</div> <!-- fin de la pagina 4 -->
+ </body>
+ </html>

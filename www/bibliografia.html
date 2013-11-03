@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title>ReumApp</title>
+ <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css"/>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+ <link rel="stylesheet" href="css/flexslider.css"/>
+ <link rel="stylesheet" href="css/reumapp.css" />
+
+
+ <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+ <script type="text/javascript" src="js/menuDesplegable.js" ></script>
+ <script type="text/javascript" src="js/jquery.touchSwipe.min.js" ></script>
+ <script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
+ <script src="js/jquery.flexslider.js"></script>
+ 
+ <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</head>
+ <body >
+ <!-- ********************************inicio plagina ******************************* -->
+ <div data-role="page" id="fibro" >
+
+    <div data-role="header" data-position="fixed">
+
+        <h1> ReumApp </h1>
+
+   </div> <!-- cabezera -->
+
+  <div data-role="content">
+      
+      <!-- Comienza el Colapsable Multiple -->
+    <div >
+            
+    <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Bibliografia</span>
+    </h3>
+
+    <p>
+1.	Ballina GF. Fibromialgia. Sociedad española de reumatología: manual SER de las enfermedades reumáticas. 4ed. España: editorial medica panamericana; 2004. p. 112-118
+2.	http://www.mflapaz.com/revista_5_pdf/18%20COMO%20CITAR%20REFERENCIAS.pdf
+3.	http://www.binasss.sa.cr/revistas/rmcc/591/art18.pdf
+4.	Figura http://fibromyalgialife.net/tender-points/
+5.	http://www.fnr.gub.uy/sites/default/files/normativas/medicamentos/n_trat_areumatoidea_v2012.pdf
+6.	Laffón RA. Epidemiologia,etiopotogenia y manifestaciones clínicas. Sociedad española de reumatología: manual SER de las enfermedades reumáticas. 4 ed. España: editorial medica panamericana; 2001. P. 169-179
+7.	http://escuela.med.puc.cl/publ/TemasMedicinaInterna/pdf/Osteoporosis.pdf
+8.	Torrijos EA. Osteoporosis: definición, etiopatogenia, epidemiologia y clasificación.osteoporosis secundaria. Sociedad española de reumatología: manual SER de las enfermedades reumáticas. 4 ed. España: editorial panamericana; 2004. P. 391-394
+9.	http://www.endocrino.org.co/files/Fisiopatologia_del_Hueso_y_de_la_Osteoporosis.pdf
+10.	http://www.elsevier.es/sites/default/files/elsevier/pdf/65/65v209nSupl.1a13148347pdf001.pdf
+11.	http://www.chospab.es/biblioteca/libros/GUIA_LUPUS_ERITOMASO.pdf
+12.	Olivé MA. Lupus eritematoso sistémico: epidemiologia, etiopatogenia y manifestaciones clínicas. Sociedad española de reumatología: manual SER de las enfermedades reumáticas. 4ed. España: editorial medica panamericana; 2004. p. 189-196
+13.	http://www.scielo.org.co/pdf/rcre/v15n1/v15n1a04.pdf
+14.	http://www.elsevier.es/es/revistas/seminarios-fundacion-espa%C3%B1ola-reumatologia-274/aspectos-actuales-sindrome-sj%C3%B6gren-etiopatogenia-manifestaciones-clinicas-13150722-revisiones-2010
+</p>
+</div>
+        
+       
+
+  </div><!-- Termina el Contenido-->
+
+   </div> <!-- contenido -->
+
+   <div data-role="footer" data-position="fixed">
+
+       <div data-role="navbar">
+        <ul>
+          <li><a href="index.html">cerrar seccion</a></li>
+          <li><a href="principal.html">principal</a></li>
+          <li><a href="calculadora.html">diagnostico</a></li>
+        </ul>
+
+       </div>
+
+   </div> <!-- piecera -->
+
+</div> <!-- fin de la pagina 4 -->
+
+ </body>
+ </html>

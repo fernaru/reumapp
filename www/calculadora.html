@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title>ReumApp</title>
+ <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.1.min.css">
+ <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.3.1.min.css">
+ <link rel="stylesheet" type="text/css" href="jquery.mobile.theme-1.3.1.min.css">
+ <link rel="stylesheet" href="css/flexslider.css"/>
+ <link rel="stylesheet" href="css/reumapp.css" />
+
+ <script type="text/javascript" charset="utf-8" src="js/jquery-1.10.2.min.js"></script>
+ <script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.3.1.min.js"></script>
+ <script charset="utf-8" type="text/javascript" src="cordova-2.1.0.js"></script>
+ <script src="js/gapnote.js"></script>
+ <script src="js/jquery.flexslider.js"></script>
+ 
+ 
+ <script type="text/javascript">
+   	
+	function sumar()
+	{
+		var cont=0;
+		$('#contenido input').each(function(index, element) {
+			cont= parseInt(cont) + parseInt( $(this).val() );
+		});
+		$("#resultado").html(cont);
+	}
+	
+  </script>
+
+
+</head>
+ <body >
+ <!-- inicio de la aplicacion -->
+ <div data-role="page" id="login" >
+
+    <div data-role="header" data-position="fixed">
+
+   			<h1> ReumApp </h1>
+
+   </div> <!-- cabezera -->
+
+	
+      <div id="contenido">
+      		<a href="#" onClick="javascript: sumar(); return false;" id="itemIzq">SUMAR</a>
+        	<div data-demo-html="true">
+               pregunta 1
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 2
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 3
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 4
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 5
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 6
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 7
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 8
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 9
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            
+            <div data-demo-html="true">
+               pregunta 10
+                <input type="range" name="slider-4" id="slider-4" value="0" min="0" max="10" data-highlight="true" data-mini="true">
+            </div>
+            <div id="resultado"><input type="Text" name="resultado" value="0" size="12"></div>
+<br><br><br>
+
+</div>
+<!-- 
+  <article id="galeria-inicio">
+      <div class="flexslider">
+          <ul class="slides">
+            <li>
+                  <a href="http://google.com"><img src="img/IMG_0033.JPG"/></a>
+                    <p class="flex-direction-nav"></p>
+                </li>
+                <li>
+                  <img src="img/como tu.jpg"/>
+                    <p class="flex-direction-nav"></p>
+                </li>
+                <li>
+                  <img src="img/besito.jpg"/>
+                    <p class="flex-direction-nav"></p>
+                </li>
+                </ul>
+        </div>
+    </article>
+   </div> --> <!-- contenido --> 
+   <div data-role="footer" data-position="fixed">
+
+  		 <div data-role="navbar">
+  		 	<ul>
+  		 		<li><a href="#login">cerrar seccion</a></li>
+  		 		<li><a href="#principal">contactanos</a></li>
+  		 		<li><a href="pantalla3">Bibliografia</a></li>
+          <li><a href="#registro">registrar</a></li>
+  		 	</ul>
+
+  		 </div>
+
+   </div> <!-- piecera -->
+
+</div> <!-- fin de la pagina 1 -->
+ </body>
+ </html>

@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <title>ReumApp</title>
+ <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css"/>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+ <link rel="stylesheet" href="css/flexslider.css"/>
+ <link rel="stylesheet" href="css/reumapp.css" />
+
+
+ <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+ <script type="text/javascript" src="js/menuDesplegable.js" ></script>
+ <script type="text/javascript" src="js/jquery.touchSwipe.min.js" ></script>
+ <script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
+ <script src="js/jquery.flexslider.js"></script>
+ 
+ <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</head>
+ <body >
+ <!-- ********************************inicio plagina ******************************* -->
+ <div data-role="page" id="fibro" >
+
+    <div data-role="header" data-position="fixed">
+
+        <h1> ReumApp </h1>
+
+   </div> <!-- cabezera -->
+
+  <div data-role="content">
+      
+      <!-- Comienza el Colapsable Multiple -->
+    <div >
+           
+    <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Definicion</span>
+    </h3>
+
+    <p>El lupus eritematoso sistémico (LES) es una enfermedad inflamatoria crónica de naturaleza autoinmune, de etiología desconocida en la que hay daño celular y tisular por autoanticuerpos y que cursa con un amplio espectro de manifestaciones clínicas. (11)</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Epidemiologia</span>
+    </h3>
+
+    <p>Es más frecuente en mujeres en edad fértil (90% de los casos) y prevalencia varía según el área geográfica y de la etnia analizada. Afecta más frecuentemente y los indígenas americanos, a los orientales y a los afroamericanos. (11)
+Esta tiene una incidencia estimada de 1,5 casos por 100.000 habitantes y una prevalencia de 112 casos por 100.00. (12)
+</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Fisiopatologia</span>
+    </h3>
+
+    <p>Es importante mencionar  que  esta patología no tiene una  etiología clara, lo cierto es que en su producción participan tanto factores  genéticos como ambientales.<br>
+      Quizá uno de los factores más  importantes este dado por la carga genética del individuo, de modo que se ha  visto mayor incidencia de esta en gemelos monocigotos y mayor prevalencia en  familiares con LES. Dentro de los alelos que se han visto mayormente implicados  están el HLA-B8, HLA-DR3 y el HLA-DR2.(11)<br>
+      También se ha visto asociada a  factores hormonales, puesto que es mucho más frecuente en mujeres en edad  fértil y en pacientes con síndrome de Klineferter.(11)<br>
+      Tenemos que la característica  principal en el desarrollo del LES es la producción de autoanticuerpos. Dichos  autoanticuerpos son producidos tanto por la activación policlonal de las  células B como por la estimulación producida por los autoantigenos. (11)<br>
+      Estos autoanticuerpos que ya  habíamos mencionado anteriormente, pueden producir una lesión tisular através  del depósito de inmunocomplejos y una reacción inflamatoria secundaria.(11)</p>
+</div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Diagnostico</span>
+    </h3>
+
+    <p>En la actualidad no existe una única prueba que nos sirva a la hora de diagnosticar a un paciente con LES, por lo que es de suma importancia tener en cuenta tanto la historia clínica como los distintos paraclínicos (que se deben realizar en todo paciente con sospecha de LES) a la hora de establecer un diagnóstico certero.</p>
+    
+    </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Clinica</span>
+    </h3>
+
+    <p>Dentro de la siguiente tabla se  encuentran las manifestaciones clínicas más frecuentes de lupus eritematoso  sistémico (11):</p>
+    <table border="1" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="295" valign="top"><p>Manifestaciones    clínicas</p></td>
+        <td width="294" valign="top"><p>%    según series </p></td>
+      </tr>
+      <tr>
+        <td width="295" valign="top"><p>Síntomas    constitucionales</p></td>
+        <td width="294" valign="top"><p>80%-90%</p></td>
+      </tr>
+      <tr>
+        <td width="295" valign="top"><p>Afectación    articular</p></td>
+        <td width="294" valign="top"><p>80-95% </p></td>
+      </tr>
+      <tr>
+        <td width="295" valign="top"><p>Eritema    malar</p></td>
+        <td width="294" valign="top"><p>55%-65% </p></td>
+      </tr>
+      <tr>
+        <td width="295" valign="top"><p>Lupus    discoide</p></td>
+        <td width="294" valign="top"><p>15%-25% </p></td>
+      </tr>
+      <tr>
+        <td width="295" valign="top"><p>Afectación    renal</p></td>
+        <td width="294" valign="top"><p>28-42% </p></td>
+      </tr>
+      <tr>
+        <td width="295" valign="top"><p>F.    de Raynaud</p></td>
+        <td width="294" valign="top"><p>24-34% </p></td>
+      </tr>
+      <tr>
+        <td width="295" valign="top"><p>Serositis</p></td>
+        <td width="294" valign="top"><p>36-55%</p></td>
+      </tr>
+    </table>
+        </div>
+        
+        <div class="ui-collapsible ui-collapsible-inset ui-collapsible-collapsed" data-role="collapsible" data-theme="c" data-content-theme="c">
+    <h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+    <span class="ui-btn-text">Tratamiento</span>
+    </h3>
+
+    <p>En vista de que él LES es una  enfermedad crónica que no tiene un tratamiento específico, lo que se trata  actualmente son más que todo las manifestaciones clínicas de dicha enfermedad.  Por eso mismo debemos estar muy pendientes en cuanto a la aparición de brotes  de dicha patología, considerando brote a cualquier aumento de la actividad de  la enfermedad medible, ya que estos nos pueden modificar el tratamiento.<br>
+      Antes de empezar a hablar de  las medidas farmacológicas que se deben seguir en todo paciente con LES, es  importante mencionar un grupo de recomendaciones y medidas que se deben seguir  con este grupo de pacientes. Dentro de este grupo de recomendaciones está el  uso de protector solar y la disminución de la exposición a este sobre todo en  horas de la tarde.<br>
+      Se deberá informar al paciente  sobre los hábitos de vida saludable que debe tener como son la realización de  ejercicio aeróbico moderado, evitar el sobrepeso, la prohibición del consumo de  tabaco (que no solo empeora las lesiones cutáneas sino que además resta  eficacia a los medicamentos antipalúdicos, medicamentos ampliamente utilizados  en el manejo del LES). <br>
+      El tratamiento profiláctico del  LES tiene como finalidad, evitar la aparición de los brotes lupicos. Uno de los  medicamentos más utilizados para el control de la enfermedad son los  antipalúdicos, dentro de estos el medicamento más representativo es la hidroxicloroquina.  Estos han sido utilizados más que todo para tratar las manifestaciones menores  de la enfermedad, como son la astenia, artritis, pleuritis y eritema. Tienen un  importante efecto sobre la actividad de la enfermedad previniendo el daño  irreversible y disminuyendo la mortalidad.(11)<br>
+      Si bien la dosis óptima de  hidroxicloroquina no está bien definida, 200 mg/día suelen ser suficientes en  la mayoría de los enfermos y 400 mg/día podrían ser utilizados durante los  primeros 1-2 meses al inicio de tratamiento y en situaciones concretas de  empeoramiento clínico. (11)<br>
+      También suelen utilizarse los  AINEs, pero estos más que todo para tratar las manifestaciones articulares y la  afección de las serosas.</p>
+</div>
+
+  </div><!-- Termina el Contenido-->
+
+   </div> <!-- contenido -->
+
+   <div data-role="footer" data-position="fixed">
+
+       <div data-role="navbar">
+        <ul>
+          <li><a href="#login">cerrar seccion</a></li>
+          <li><a href="#principal">principal</a></li>
+          <li><a href="pantalla3">pantalla 3</a></li>
+        </ul>
+
+       </div>
+
+   </div> <!-- piecera -->
+
+</div> <!-- fin de la pagina 4 -->
+
+ </body>
+ </html>
